@@ -1,0 +1,60 @@
+.fon {
+    color:#E6E6FA;
+}
+
+h1 {
+    color: #800080;
+	font-size: 30px;
+            text-align: center;
+}
+
+.text-box {
+	color:#800080 ;
+	font-size: 25px;
+            text-align: center;
+        }
+
+nav {
+    width: 100%; /* Меню на всю ширину страницы */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Размещаем элементы с равными промежутками */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #800080;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+	font-size: 20px; 
+}
+
+nav ul li a:hover {
+    background-color: #E6E6FA;
+}
+
+nav ul li a img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color:#E6E6FA ;
+    color:#800080 ;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}

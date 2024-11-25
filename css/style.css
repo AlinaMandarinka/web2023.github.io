@@ -1,6 +1,19 @@
+/* alegreya-sans-regular - cyrillic_cyrillic-ext_latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/alegreya-sans-v25-cyrillic_cyrillic-ext_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
 .fon {
     color:#E6E6FA;
 }
+
+
 
 h1 {
     color: #800080;
@@ -8,11 +21,241 @@ h1 {
             text-align: center;
 }
 
+
+
+.block-about {
+    background-color: #f9f3fc; /* Цвет фона */
+    padding: 20px; /* Внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    border-left: 5px solid #dbe9fc; /* Полоса слева */
+    font-size: 18px; /* Размер текста */
+    color: #333; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    box-sizing: border-box; /* Учитываем отступы */
+    width: 100%; /* Занимает всю ширину */
+   
+}
+
+.block-about h2 {
+    color: #581260; /* Цвет заголовка */
+    font-size: 28px; /* Размер заголовка */
+    margin-bottom: 10px; /* Отступ под заголовком */
+}
+
+.about-content {
+    display: flex; /* Используем Flexbox для размещения текста и изображения рядом */
+    align-items: center; /* Выравниваем по вертикали */
+    gap: 100px; /* Добавляем отступ между текстом и изображением */
+}
+
+.about-text {
+    flex: 2; /* Текст занимает 2/3 ширины */
+    text-align: justify; /* Выравниваем текст по ширине */
+}
+
+.about-image {
+    flex: 1; /* Картинка занимает 1/3 ширины */
+}
+
+.about-image img {
+    width: 330px; /* Фиксированная ширина */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px; /* Скругляем углы изображения */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем лёгкую тень */
+}
+
+
+
+html {
+    scroll-behavior: smooth; /* Плавный скроллинг к блоку*/
+}
+
+
+
+
+.block-kon {
+    background-color: #f2fffe; /* Цвет фона */
+    padding: 20px; /* Внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    border-left: 5px solid #c9eeff; /* Полоса слева */
+    font-size: 18px; /* Размер текста */
+    color: #333; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    box-sizing: border-box; /* Учитываем отступы */
+    width: 100%; /* Занимает всю ширину */
+   
+}
+
+.block-kon h3 {
+    color: #15355e; /* Цвет заголовка */
+    font-size: 28px; /* Размер заголовка */
+    text-align: center;
+    margin-bottom: 10px; /* Отступ под заголовком */
+}
+
+.kon-container {
+    display: flex; /* Используем Flexbox */
+    justify-content: space-between; /* Равномерное распределение элементов */
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 10px; /* Расстояние между элементами */
+    flex-wrap: nowrap; /* Запретить перенос на новую строку */
+}
+
+.kon{
+    text-align: center; /* Центрируем текст и изображения */
+    max-width: 100px; /* Ограничиваем ширину элемента */
+}
+
+.kon img {
+    max-width: 80px; /* Уменьшить логотипы */
+    height: auto;
+    margin-bottom: 10px; /* Отступ под логотипом */
+    border-radius: 8px; /* Скругляем углы у логотипа */
+}
+
+.kon p {
+    font-size: 16px; /* Размер текста */
+    color: #333; /* Цвет текста */
+    margin: 0; /* Убираем лишние отступы */
+}
+
+
+
+
+.block-services {
+    background-color: #fffbea; /* Цвет фона */
+    padding: 20px; /* Внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    border-left: 5px solid #fff1b8; /* Полоса слева */
+    font-size: 18px; /* Размер текста */
+    color: #333; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    box-sizing: border-box; /* Учитываем отступы */
+    width: 100%; /* Занимает всю ширину */
+   
+}
+
+.block-services h4 {
+    color: #4a1b0e; /* Цвет заголовка */
+    font-size: 28px; /* Размер заголовка */
+    margin-bottom: 10px; /* Отступ под заголовком */
+}
+
+.services-container {
+    display: flex; /* Flexbox для разделения на колонки */
+    justify-content: center; /* Центрирование колонок */
+    gap: 20px; /* Расстояние между колонками */
+    flex-wrap: wrap; /* Перенос колонок на маленьких экранах */
+}
+
+.services-list {
+    list-style-type: disc; /* Тип маркеров списка */
+    margin: 0;
+    padding: 0 20px; /* Внутренние отступы для колонок */
+    flex: 1; /* Равномерное распределение ширины */
+}
+
+.services-list li {
+    margin-bottom: 10px; /* Отступ между пунктами */
+    font-size: 18px; /* Размер текста */
+    color: #333; /* Цвет текста */
+}
+
+
+
+.block-port{
+    background-color: #f9f3fc; /* Цвет фона */
+    padding: 20px; /* Внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+    border-left: 5px solid #f9e4ff; /* Полоса слева */
+    line-height: 1.6; /* Межстрочный интервал */
+    box-sizing: border-box; /* Учитываем отступы */
+    width: 100%; /* Занимает всю ширину */
+    text-align: center; /* Центрирование текста */
+}
+
+.block-port h5 {
+    color: #5f1368; /* Цвет заголовка */
+    font-size: 28px; /* Размер заголовка */
+    margin-bottom: 15px; /* Отступ под заголовком */
+}
+
+.block-port p {
+    color: #581260; /* Цвет заголовка */
+    font-size: 20px; /* Размер заголовка */
+    margin-bottom: 8px; /* Отступ под заголовком */
+    margin-bottom: 8px; /* Отступ под текстом */
+}
+
+.port-list {
+    color: #581260; /* Цвет заголовка */
+    list-style-type: disc; /* Тип маркеров списка */
+    text-align: left; /* Выравнивание списка по левому краю */
+    margin: 0 auto 20px; /* Центрирование и отступы */
+    max-width: 600px; /* Ширина списка */
+    padding-left: 20px; /* Отступы для маркеров */
+}
+
+.port-list li {
+    font-size: 20px; /* Размер текста */
+    color: #581260; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ между пунктами */
+}
+
+.btn {
+    background-color: #581260; /* Основной цвет кнопки */
+    color: white; /* Цвет текста */
+    font-size: 18px; /* Размер текста */
+    padding: 10px 20px; /* Внутренние отступы */
+    border: none; /* Убираем границу */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход при наведении */
+}
+
+.btn:hover {
+    background-color: #357ab8; /* Цвет кнопки при наведении */
+    transform: scale(1.05); /* Увеличение кнопки */
+}
+
+.btn:active {
+    background-color: #2d6399; /* Цвет кнопки при нажатии */
+    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
+}
+
+
+
+/* Отступ между блоками*/
+.block-about,
+.block-kon,
+.block-services,
+.block-port{
+    margin-bottom: 20px; /* Отступ снизу */
+}
+.block-kon {
+    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
+}
+.block-services {
+    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
+}
+.block-port{
+    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
+}
+footer {
+    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
+}
+
+
+
+
 .text-box {
 	color:#800080 ;
 	font-size: 25px;
             text-align: center;
         }
+
+
 
 nav {
     width: 100%; /* Меню на всю ширину страницы */
@@ -47,9 +290,13 @@ nav ul li a:hover {
 nav ul li a img {
     vertical-align: middle;
     margin-right: 10px;
-    width: 100px;
+    width: 120px;
     height: auto;
 }
+
+
+
+
 
 footer {
     background-color:#E6E6FA ;

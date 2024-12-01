@@ -16,257 +16,27 @@
 
 
 h1 {
-    color: #800080;
-	font-size: 30px;
+    color: #760276;
+  font-size: 35px;
             text-align: center;
 }
 
-
-
-.block-about {
-    background-color: #f9f3fc; /* Цвет фона */
-    padding: 20px; /* Внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
-    border-left: 5px solid #dbe9fc; /* Полоса слева */
-    font-size: 18px; /* Размер текста */
-    color: #333; /* Цвет текста */
-    line-height: 1.6; /* Межстрочный интервал */
-    box-sizing: border-box; /* Учитываем отступы */
-    width: 100%; /* Занимает всю ширину */
-   
-}
-
-.block-about h2 {
-    color: #581260; /* Цвет заголовка */
-    font-size: 28px; /* Размер заголовка */
-    margin-bottom: 10px; /* Отступ под заголовком */
-}
-
-.about-content {
-    display: flex; /* Используем Flexbox для размещения текста и изображения рядом */
-    align-items: center; /* Выравниваем по вертикали */
-    gap: 100px; /* Добавляем отступ между текстом и изображением */
-}
-
-.about-text {
-    flex: 2; /* Текст занимает 2/3 ширины */
-    text-align: justify; /* Выравниваем текст по ширине */
-}
-
-.about-image {
-    flex: 1; /* Картинка занимает 1/3 ширины */
-}
-
-.about-image img {
-    width: 330px; /* Фиксированная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    border-radius: 10px; /* Скругляем углы изображения */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавляем лёгкую тень */
-}
-
-
-
-html {
-    scroll-behavior: smooth; /* Плавный скроллинг к блоку*/
-}
-
-
-
-
-.block-kon {
-    background-color: #f2fffe; /* Цвет фона */
-    padding: 20px; /* Внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
-    border-left: 5px solid #c9eeff; /* Полоса слева */
-    font-size: 18px; /* Размер текста */
-    color: #333; /* Цвет текста */
-    line-height: 1.6; /* Межстрочный интервал */
-    box-sizing: border-box; /* Учитываем отступы */
-    width: 100%; /* Занимает всю ширину */
-   
-}
-
-.block-kon h3 {
-    color: #15355e; /* Цвет заголовка */
-    font-size: 28px; /* Размер заголовка */
-    text-align: center;
-    margin-bottom: 10px; /* Отступ под заголовком */
-}
-
-.kon-container {
-    display: flex; /* Используем Flexbox */
-    justify-content: space-between; /* Равномерное распределение элементов */
-    align-items: center; /* Выравнивание по вертикали */
-    gap: 10px; /* Расстояние между элементами */
-    flex-wrap: nowrap; /* Запретить перенос на новую строку */
-}
-
-.kon{
-    text-align: center; /* Центрируем текст и изображения */
-    max-width: 100px; /* Ограничиваем ширину элемента */
-}
-
-.kon img {
-    max-width: 80px; /* Уменьшить логотипы */
-    height: auto;
-    margin-bottom: 10px; /* Отступ под логотипом */
-    border-radius: 8px; /* Скругляем углы у логотипа */
-}
-
-.kon p {
-    font-size: 16px; /* Размер текста */
-    color: #333; /* Цвет текста */
-    margin: 0; /* Убираем лишние отступы */
-}
-
-
-
-
-.block-services {
-    background-color: #fffbea; /* Цвет фона */
-    padding: 20px; /* Внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
-    border-left: 5px solid #fff1b8; /* Полоса слева */
-    font-size: 18px; /* Размер текста */
-    color: #333; /* Цвет текста */
-    line-height: 1.6; /* Межстрочный интервал */
-    box-sizing: border-box; /* Учитываем отступы */
-    width: 100%; /* Занимает всю ширину */
-   
-}
-
-.block-services h4 {
-    color: #4a1b0e; /* Цвет заголовка */
-    font-size: 28px; /* Размер заголовка */
-    margin-bottom: 10px; /* Отступ под заголовком */
-}
-
-.services-container {
-    display: flex; /* Flexbox для разделения на колонки */
-    justify-content: center; /* Центрирование колонок */
-    gap: 20px; /* Расстояние между колонками */
-    flex-wrap: wrap; /* Перенос колонок на маленьких экранах */
-}
-
-.services-list {
-    list-style-type: disc; /* Тип маркеров списка */
-    margin: 0;
-    padding: 0 20px; /* Внутренние отступы для колонок */
-    flex: 1; /* Равномерное распределение ширины */
-}
-
-.services-list li {
-    margin-bottom: 10px; /* Отступ между пунктами */
-    font-size: 18px; /* Размер текста */
-    color: #333; /* Цвет текста */
-}
-
-
-
-.block-port{
-    background-color: #f9f3fc; /* Цвет фона */
-    padding: 20px; /* Внутренние отступы */
-    margin: 0; /* Убираем внешние отступы */
-    border-left: 5px solid #f9e4ff; /* Полоса слева */
-    line-height: 1.6; /* Межстрочный интервал */
-    box-sizing: border-box; /* Учитываем отступы */
-    width: 100%; /* Занимает всю ширину */
-    text-align: center; /* Центрирование текста */
-}
-
-.block-port h5 {
-    color: #5f1368; /* Цвет заголовка */
-    font-size: 28px; /* Размер заголовка */
-    margin-bottom: 15px; /* Отступ под заголовком */
-}
-
-.block-port p {
-    color: #581260; /* Цвет заголовка */
-    font-size: 20px; /* Размер заголовка */
-    margin-bottom: 8px; /* Отступ под заголовком */
-    margin-bottom: 8px; /* Отступ под текстом */
-}
-
-.port-list {
-    color: #581260; /* Цвет заголовка */
-    list-style-type: disc; /* Тип маркеров списка */
-    text-align: left; /* Выравнивание списка по левому краю */
-    margin: 0 auto 20px; /* Центрирование и отступы */
-    max-width: 600px; /* Ширина списка */
-    padding-left: 20px; /* Отступы для маркеров */
-}
-
-.port-list li {
-    font-size: 20px; /* Размер текста */
-    color: #581260; /* Цвет текста */
-    margin-bottom: 10px; /* Отступ между пунктами */
-}
-
-.btn {
-    background-color: #581260; /* Основной цвет кнопки */
-    color: white; /* Цвет текста */
-    font-size: 18px; /* Размер текста */
-    padding: 10px 20px; /* Внутренние отступы */
-    border: none; /* Убираем границу */
-    border-radius: 8px; /* Скругление углов */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень кнопки */
-    cursor: pointer; /* Указатель при наведении */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход при наведении */
-}
-
-.btn:hover {
-    background-color: #357ab8; /* Цвет кнопки при наведении */
-    transform: scale(1.05); /* Увеличение кнопки */
-}
-
-.btn:active {
-    background-color: #2d6399; /* Цвет кнопки при нажатии */
-    transform: scale(0.95); /* Уменьшение кнопки при нажатии */
-}
-
-
-
-/* Отступ между блоками*/
-.block-about,
-.block-kon,
-.block-services,
-.block-port{
-    margin-bottom: 20px; /* Отступ снизу */
-}
-.block-kon {
-    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
-}
-.block-services {
-    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
-}
-.block-port{
-    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
-}
-footer {
-    margin-top: 20px; /* Отступ сверху для второго блока (если нужно) */
-}
-
-
-
-
-.text-box {
-	color:#800080 ;
-	font-size: 25px;
-            text-align: center;
-        }
 
 
 
 nav {
-    width: 100%; /* Меню на всю ширину страницы */
+    width: 100%;                                     /* Меню на всю ширину страницы */
+    border-bottom: 3px solid #6c2b75;               /* Нижняя граница (полоска) */
 }
+
+
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between; /* Размещаем элементы с равными промежутками */
+    justify-content: space-between;                /* Размещаем элементы с равными промежутками */
 }
 
 nav ul li {
@@ -284,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #E6E6FA;
+    background-color: #f9e2ff;
 }
 
 nav ul li a img {
@@ -298,10 +68,388 @@ nav ul li a img {
 
 
 
+
+{
+    box-sizing: border-box;
+}
+
+
+
+
+
+header{
+    padding: 1rem;
+    text-align: center;
+    background-image: url(../images/01.jpg);
+    height:120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+
+
+
+
+.block-about {
+    background-color: #f9f3fc; 
+    padding: 20px;                          /* Внутренние отступы */
+    margin: 0;                             /* Убираем внешние отступы */
+    border-left: 5px solid #dbe9fc;     /* Полоса слева */
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.6;                     /* Межстрочный интервал */
+    box-sizing: border-box;               /* Учитываем отступы */
+    width: 100%;   
+    border-radius: 10px;                        
+   
+}
+
+.block-about h2 {
+    color: #581260; 
+    font-size: 28px; 
+    margin-bottom: 10px;                  /* Отступ под заголовком */
+}
+
+.about-content {
+    display: flex;                        /* Используем Flexbox для размещения текста и изображения рядом */
+    align-items: center;                  /* Выравниваем по вертикали */
+    gap: 100px;                           /* Добавляем отступ между текстом и изображением */
+}
+
+.about-text {
+    flex: 2;                              /* Текст занимает 2/3 ширины */
+    text-align: justify;                  /* Выравниваем текст по ширине */
+}
+
+.about-image {
+    flex: 1;                              /* Картинка занимает 1/3 ширины */
+}
+
+.about-image img {
+    width: 330px;                         /* Фиксированная ширина */
+    height: auto;                         /* Автоматическая высота для сохранения пропорций */
+    border-radius: 10px;                  /* Скругляем углы изображения */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   /* Добавляем лёгкую тень */
+}
+
+
+
+html {
+    scroll-behavior: smooth;                      /* Плавный скроллинг к блоку*/
+}
+
+
+
+
+.block-kon {
+    background-color: #f2fffe; 
+    padding: 20px;                            /* Внутренние отступы */
+    margin: 0;                                /* Убираем внешние отступы */
+    border-left: 5px solid #c9eeff;         /* Полоса слева */
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.6;                         /* Межстрочный интервал */
+    box-sizing: border-box;                   /* Учитываем отступы */
+    width: 100%;     
+    border-radius: 10px;                          
+   
+}
+
+.block-kon h3 {
+    color: #15355e; 
+    font-size: 28px; 
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.kon-container {
+    display: flex;                            
+    justify-content: space-between;           /* Равномерное распределение элементов */
+    align-items: center;                      /* Выравнивание по вертикали */
+    gap: 10px;                                /* Расстояние между элементами */
+    flex-wrap: nowrap;                        /* Запретить перенос на новую строку */
+}
+
+.kon{
+    text-align: center; 
+    max-width: 100px;                         /* Ограничиваем ширину элемента */
+}
+
+.kon img {
+    max-width: 80px;                          /* Уменьшить логотипы */
+    height: auto;
+    margin-bottom: 10px;                      /* Отступ под логотипом */
+    border-radius: 8px;                       /* Скругляем углы у логотипа */
+}
+
+.kon p {
+    font-size: 16px; 
+    color: #333; 
+    margin: 0;                                 /* Убираем лишние отступы */
+}
+
+
+
+
+.block-services {
+    background-color: #fffbea; 
+    padding: 20px;                            /* Внутренние отступы */
+    margin: 0;                                /* Убираем внешние отступы */
+    border-left: 5px solid #fff1b8;         /* Полоса слева */
+    font-size: 18px; 
+    color: #333; 
+    line-height: 1.6;                          /* Межстрочный интервал */
+    box-sizing: border-box;                    /* Учитываем отступы */
+    width: 100%;  
+    border-radius: 10px;                              
+   
+}
+
+.block-services h4 {
+    color: #4a1b0e; 
+    font-size: 28px; 
+    margin-bottom: 10px; 
+}
+
+.services-container {
+    display: flex;                             /* Flexbox для разделения на колонки */
+    justify-content: center;                    /* Центрирование колонок */
+    gap: 20px;                                  /* Расстояние между колонками */
+    flex-wrap: wrap;                            /* Перенос колонок на маленьких экранах */
+}
+
+.services-list {
+    list-style-type: disc; 
+    margin: 0;
+    padding: 0 20px;                         /* Внутренние отступы для колонок */
+    flex: 1;                                 /* Равномерное распределение ширины */
+}
+
+.services-list li {
+    margin-bottom: 10px;                       /* Отступ между пунктами */
+    font-size: 18px; 
+    color: #333; 
+}
+
+
+
+.block-port{
+    background-color: #f9f3fc;
+    padding: 20px;                              /* Внутренние отступы */
+    margin: 0;                                  /* Убираем внешние отступы */
+    border-left: 5px solid #f9e4ff;           /* Полоса слева */
+    line-height: 1.6;                           /* Межстрочный интервал */
+    box-sizing: border-box;                     /* Учитываем отступы */
+    width: 100%;                               
+    text-align: center; 
+    border-radius: 10px; 
+}
+
+.block-port h5 {
+    color: #5f1368; 
+    font-size: 28px; 
+    margin-bottom: 15px; 
+}
+
+.block-port p {
+    color: #581260;
+    font-size: 20px;
+    margin-bottom: 8px; 
+    margin-bottom: 8px; 
+}
+
+.port-list {
+    color: #581260; 
+    list-style-type: disc; 
+    text-align: left; 
+    margin: 0 auto 20px; 
+    max-width: 600px;                       /* Ширина списка */
+    padding-left: 20px;                     /* Отступы для маркеров */
+}
+
+.port-list li {
+    font-size: 20px; 
+    color: #581260; 
+    margin-bottom: 10px; 
+}
+
+.btn {
+    background-color: #581260; 
+    color: white; 
+    font-size: 18px; 
+    padding: 10px 20px;                  /* Внутренние отступы */
+    border: none; 
+    border-radius: 8px;                  /* Скругление углов */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень кнопки */
+    cursor: pointer;                       /* Указатель при наведении */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход при наведении */
+}
+
+.btn:hover {
+    background-color: #357ab8; 
+    transform: scale(1.05);               /* Увеличение кнопки при наведении*/
+}
+
+.btn:active {
+    background-color: #2d6399;            /* Цвет кнопки при нажатии */
+    transform: scale(0.95);                  /* Уменьшение кнопки при нажатии */
+}
+
+
+
+/* Отступ между блоками*/
+.block-about,
+.block-kon,
+.block-services,
+.block-port{
+    margin-bottom: 20px;       /* Отступ снизу */
+}
+.block-kon {
+    margin-top: 20px;        /* Отступ сверху для второго блока (если нужно) */
+}
+.block-services {
+    margin-top: 20px; 
+}
+.block-port{
+    margin-top: 20px;
+}
+footer {
+    margin-top: 20px; 
+}
+
+
+
+
+.text-box {
+	color:#800080 ;
+	font-size: 25px;
+            text-align: center;
+        }
+
+
+
+
+
+
+/* Таблица */
+.resume-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для заголовков таблицы */
+.resume-table thead th {
+    background-color: #800080;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Стили для строк таблицы */
+.resume-table tbody tr:nth-child(odd) {
+    background-color: #fff;                       /* Белый фон */
+}
+
+.resume-table tbody tr:nth-child(even) {
+    background-color: #fbf5ff;                      /* Светло-фиолетовый фон */
+}
+
+/* Стили для строк таблицы */
+.resume-table tbody td {
+    padding: 10px;
+    border: 1px solid #800080;
+    color: #333;                                           /* Цвет текста в ячейках (например, тёмно-серый) */
+}
+
+
+.resume-table tbody td {
+    padding: 10px;
+    border: 1px solid #800080;
+}
+
+/* Выравнивание текста в ячейках */
+.resume-table tbody td {
+    vertical-align: top;
+}
+
+
+
+
+
+.achievement {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.achievement-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.achievement-item.reverse {
+    flex-direction: row-reverse; /* Меняем порядок блоков */
+}
+
+.achievement-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.achievement-text h6 {
+    font-size: 28px;
+    color: #66125f;
+    margin-bottom: 10px;
+}
+
+.achievement-text h7 {
+    font-size: 28px;
+    color: #540e58;
+    margin-bottom: 10px;
+}
+
+.achievement-text p {
+    font-size: 18px;
+    color: #333;
+}
+
+.achievement-photo {
+    width: 40%;
+    text-align: center;
+}
+
+.achievement-photo img {
+    max-width: 85%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background: #800080;
+    margin: 20px 0;
+}
+
+
+
+
+
 footer {
     background-color:#E6E6FA ;
     color:#800080 ;
     padding: 10px;
     text-align: center;
     font-size: 15px;
+    border-radius: 10px; 
 }

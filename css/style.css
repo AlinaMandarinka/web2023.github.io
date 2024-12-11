@@ -87,16 +87,6 @@ nav ul li a img {
 
 
 
-
-
-{
-    box-sizing: border-box;
-}
-
-
-
-
-
 header{
     padding: 1rem;
     text-align: center;
@@ -114,13 +104,13 @@ header{
 
 .block-about {
     background-color: #f9f3fc; 
-    padding: 20px;                          /* Внутренние отступы */
-    margin: 0;                             /* Убираем внешние отступы */
+    padding: 20px;                         
+    margin: 0;                             
     border-left: 5px solid #dbe9fc;     /* Полоса слева */
     font-size: 18px; 
     color: #333; 
-    line-height: 1.6;                     /* Межстрочный интервал */
-    box-sizing: border-box;               /* Учитываем отступы */
+    line-height: 1.6;                     
+    box-sizing: border-box;               
     width: 100%;   
     border-radius: 10px;                        
    
@@ -129,13 +119,13 @@ header{
 .block-about h2 {
     color: #581260; 
     font-size: 28px; 
-    margin-bottom: 10px;                  /* Отступ под заголовком */
+    margin-bottom: 10px;                 
 }
 
 .about-content {
-    display: flex;                        /* Используем Flexbox для размещения текста и изображения рядом */
+    display: flex;                        
     align-items: center;                  /* Выравниваем по вертикали */
-    gap: 100px;                           /* Добавляем отступ между текстом и изображением */
+    gap: 100px;                           
 }
 
 .about-text {
@@ -148,8 +138,8 @@ header{
 }
 
 .about-image img {
-    width: 330px;                         /* Фиксированная ширина */
-    height: auto;                         /* Автоматическая высота для сохранения пропорций */
+    width: 330px;                         
+    height: auto;                        
     border-radius: 10px;                  /* Скругляем углы изображения */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   /* Добавляем лёгкую тень */
 }
@@ -165,13 +155,13 @@ html {
 
 .block-kon {
     background-color: #f2fffe; 
-    padding: 20px;                            /* Внутренние отступы */
-    margin: 0;                                /* Убираем внешние отступы */
-    border-left: 5px solid #c9eeff;         /* Полоса слева */
+    padding: 20px;                            
+    margin: 0;                                
+    border-left: 5px solid #c9eeff;         
     font-size: 18px; 
     color: #333; 
-    line-height: 1.6;                         /* Межстрочный интервал */
-    box-sizing: border-box;                   /* Учитываем отступы */
+    line-height: 1.6;                         
+    box-sizing: border-box;                   
     width: 100%;     
     border-radius: 10px;                          
    
@@ -187,27 +177,27 @@ html {
 .kon-container {
     display: flex;                            
     justify-content: space-between;           /* Равномерное распределение элементов */
-    align-items: center;                      /* Выравнивание по вертикали */
-    gap: 10px;                                /* Расстояние между элементами */
-    flex-wrap: nowrap;                        /* Запретить перенос на новую строку */
+    align-items: center;                      
+    gap: 10px;                                
+    flex-wrap: nowrap;                        
 }
 
 .kon{
     text-align: center; 
-    max-width: 100px;                         /* Ограничиваем ширину элемента */
+    max-width: 100px;                        
 }
 
 .kon img {
-    max-width: 80px;                          /* Уменьшить логотипы */
+    max-width: 80px;                         
     height: auto;
-    margin-bottom: 10px;                      /* Отступ под логотипом */
-    border-radius: 8px;                       /* Скругляем углы у логотипа */
+    margin-bottom: 10px;                      
+    border-radius: 8px;                       
 }
 
 .kon p {
     font-size: 16px; 
     color: #333; 
-    margin: 0;                                 /* Убираем лишние отступы */
+    margin: 0;                                
 }
 
 
@@ -215,13 +205,13 @@ html {
 
 .block-services {
     background-color: #fffbea; 
-    padding: 20px;                            /* Внутренние отступы */
-    margin: 0;                                /* Убираем внешние отступы */
-    border-left: 5px solid #fff1b8;         /* Полоса слева */
+    padding: 20px;                            
+    margin: 0;                                
+    border-left: 5px solid #fff1b8;         
     font-size: 18px; 
     color: #333; 
-    line-height: 1.6;                          /* Межстрочный интервал */
-    box-sizing: border-box;                    /* Учитываем отступы */
+    line-height: 1.6;                          
+    box-sizing: border-box;                    
     width: 100%;  
     border-radius: 10px;                              
    
@@ -234,21 +224,21 @@ html {
 }
 
 .services-container {
-    display: flex;                             /* Flexbox для разделения на колонки */
-    justify-content: center;                    /* Центрирование колонок */
-    gap: 20px;                                  /* Расстояние между колонками */
-    flex-wrap: wrap;                            /* Перенос колонок на маленьких экранах */
+    display: flex;                             
+    justify-content: center;                    
+    gap: 20px;                                  
+    flex-wrap: wrap;                            
 }
 
 .services-list {
     list-style-type: disc; 
     margin: 0;
-    padding: 0 20px;                         /* Внутренние отступы для колонок */
-    flex: 1;                                 /* Равномерное распределение ширины */
+    padding: 0 20px;                         
+    flex: 1;                                 
 }
 
 .services-list li {
-    margin-bottom: 10px;                       /* Отступ между пунктами */
+    margin-bottom: 10px;                       
     font-size: 18px; 
     color: #333; 
 }
@@ -257,11 +247,11 @@ html {
 
 .block-port{
     background-color: #f9f3fc;
-    padding: 20px;                              /* Внутренние отступы */
-    margin: 0;                                  /* Убираем внешние отступы */
-    border-left: 5px solid #f9e4ff;           /* Полоса слева */
-    line-height: 1.6;                           /* Межстрочный интервал */
-    box-sizing: border-box;                     /* Учитываем отступы */
+    padding: 20px;                              
+    margin: 0;                                  
+    border-left: 5px solid #f9e4ff;           
+    line-height: 1.6;                           
+    box-sizing: border-box;                     
     width: 100%;                               
     text-align: center; 
     border-radius: 10px; 
@@ -285,8 +275,8 @@ html {
     list-style-type: disc; 
     text-align: left; 
     margin: 0 auto 20px; 
-    max-width: 600px;                       /* Ширина списка */
-    padding-left: 20px;                     /* Отступы для маркеров */
+    max-width: 600px;                       
+    padding-left: 20px;                     
 }
 
 .port-list li {
@@ -299,22 +289,22 @@ html {
     background-color: #581260; 
     color: white; 
     font-size: 18px; 
-    padding: 10px 20px;                  /* Внутренние отступы */
+    padding: 10px 20px;                  
     border: none; 
-    border-radius: 8px;                  /* Скругление углов */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень кнопки */
-    cursor: pointer;                       /* Указатель при наведении */
+    border-radius: 8px;                  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;                                              /* Указатель при наведении */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход при наведении */
 }
 
 .btn:hover {
     background-color: #357ab8; 
-    transform: scale(1.05);               /* Увеличение кнопки при наведении*/
+    transform: scale(1.05);                                      /* Увеличение кнопки при наведении*/
 }
 
 .btn:active {
-    background-color: #2d6399;            /* Цвет кнопки при нажатии */
-    transform: scale(0.95);                  /* Уменьшение кнопки при нажатии */
+    background-color: #2d6399;            
+    transform: scale(0.95);                                       /* Уменьшение кнопки при нажатии */
 }
 
 
@@ -324,10 +314,10 @@ html {
 .block-kon,
 .block-services,
 .block-port{
-    margin-bottom: 20px;       /* Отступ снизу */
+    margin-bottom: 20px;       
 }
 .block-kon {
-    margin-top: 20px;        /* Отступ сверху для второго блока (если нужно) */
+    margin-top: 20px;        
 }
 .block-services {
     margin-top: 20px; 
@@ -341,14 +331,11 @@ footer {
 
 
 
-
 .text-box {
 	color:#800080 ;
 	font-size: 25px;
             text-align: center;
         }
-
-
 
 
 
@@ -362,7 +349,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стили для заголовков таблицы */
+
 .resume-table thead th {
     background-color: #800080;
     color: white;
@@ -373,18 +360,18 @@ footer {
 
 /* Стили для строк таблицы */
 .resume-table tbody tr:nth-child(odd) {
-    background-color: #fff;                       /* Белый фон */
+    background-color: #fff;                      
 }
 
 .resume-table tbody tr:nth-child(even) {
-    background-color: #fbf5ff;                      /* Светло-фиолетовый фон */
+    background-color: #fbf5ff;                      
 }
 
-/* Стили для строк таблицы */
+
 .resume-table tbody td {
     padding: 10px;
     border: 1px solid #800080;
-    color: #333;                                           /* Цвет текста в ячейках (например, тёмно-серый) */
+    color: #333;                                           
 }
 
 
@@ -397,7 +384,6 @@ footer {
 .resume-table tbody td {
     vertical-align: top;
 }
-
 
 
 
@@ -416,7 +402,7 @@ footer {
 }
 
 .achievement-item.reverse {
-    flex-direction: row-reverse; /* Меняем порядок блоков */
+    flex-direction: row-reverse;      /* Меняем порядок блоков */
 }
 
 .achievement-text {
@@ -468,7 +454,7 @@ footer {
 .container {
     display: flex; 
     justify-content: space-between; 
-    gap: 20px; /* Отступ между блоками */
+    gap: 20px; 
     padding: 0 120px;
 }
 
@@ -492,9 +478,9 @@ h8 {
     color: #5a0e53;  
     text-align: center;  
     margin-bottom: 20px; 
-    width: 100%;  /* Убедимся, что элемент занимает всю ширину */
-    display: block; /* Блочный элемент для корректного центрирования */
-    margin-top: 50px;  /* Добавляем отступ сверху для пространства над заголовком */
+    width: 100%;  
+    display: block; 
+    margin-top: 50px;  
 }
 
 /* Общий стиль формы */
@@ -505,7 +491,7 @@ h8 {
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
-    margin: 0 auto; /* Центрируем форму по горизонтали */
+    margin: 0 auto; 
 }
 
 /* Изменение цвета названий полей */
@@ -515,11 +501,11 @@ h8 {
     margin-bottom: 5px;
     color: #450b40; 
     font-size: 20px; 
-    margin: 20px auto; /* Центрирование формы */
+    margin: 20px auto; 
 }
 
 
-/* Поля ввода (Имя, E-mail, Сообщение) */
+
 .feedback-form input[type="text"],
 .feedback-form input[type="email"],
 .feedback-form textarea {
@@ -533,7 +519,7 @@ h8 {
     background-color: #f9f9f9;
 }
 
-/* Цвет текста в подсказках (placeholder) */
+
 .feedback-form input[type="text"]::placeholder,
 .feedback-form input[type="email"]::placeholder,
 .feedback-form textarea::placeholder {
@@ -565,9 +551,8 @@ h8 {
 }
 
 .feedback-form input[type="submit"]:hover {
-    background-color: #56a8eb; /* Цвет кнопки при наведении */
+    background-color: #56a8eb;
 }
-
 
 
 
